@@ -72,6 +72,7 @@ class Player {
         this.jetsFrame = 1;
         this.smallLaser = new SmallLaser(this.game)
         this.bigLaser = new BigLaser(this.game)
+        // energy bar
         this.energy = 50
         this.maxEnergy = 100
         this.coolDown = false
