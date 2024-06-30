@@ -4,11 +4,11 @@ html {
 }
 
 body {
-    background-color: darkmagenta;
+    background: linear-gradient(#261646, #490C42);
 } 
 
 #canvas1 {
-    border: 5px solid white;
+    border: 5px solid linear-gradient(#261646, #490C42);
     position: absolute;
     top: 50%;
     left: 50%;
