@@ -257,15 +257,15 @@ class Boss {
     }
     draw(c) {
         c.drawImage(this.image, this.frameX*this.width, this.frameY*this.height, this.width, this.height, this.x, this.y, this.width, this.height);
-        if (this.lives > 0) {    
-            c.save();
-            c.textAlign = 'center';
-            c.shadowOffsetX = 3;
-            c.shadowOffsetY = 3;
-            c.shadowColor = 'black';
-            c.fillText(this.lives, this.x + this.width * 0.5, this.y + 50);
-            c.restore();
-        }
+        // if (this.lives > 0) {    
+        //     c.save();
+        //     c.textAlign = 'center';
+        //     c.shadowOffsetX = 3;
+        //     c.shadowOffsetY = 3;
+        //     c.shadowColor = 'black';
+        //     c.fillText(this.lives, this.x + this.width * 0.5, this.y + 50);
+        //     c.restore();
+        // }
     }
     update(c) {
         this.draw(c)
